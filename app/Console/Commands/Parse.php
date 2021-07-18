@@ -93,9 +93,9 @@ class Parse extends Command
             }
         }
     
-        foreach(products::where('cathegory',$cat) as $prod){
-            var_dump($prod->name,$prod->image,$prod->price,$prod->description,$prod->cathegory);
-        }
+       // foreach(products::where('cathegory',$cat) as $prod){
+         //   var_dump($prod->name,$prod->image,$prod->price,$prod->description,$prod->cathegory);
+        //}
         
     
     }

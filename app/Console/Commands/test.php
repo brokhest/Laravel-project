@@ -40,7 +40,7 @@ class test extends Command
 
 
     {
-      $html = file_get_contents('https://animeshop-akki.ru/cospley/costum/bandana-povyazka-derevnya-skrytogo-peska-naruto');
-      preg_match('##su',$html,$desc);
-    }
+    //  $html = file_get_contents('https://animeshop-akki.ru/cospley/costum/bandana-povyazka-derevnya-skrytogo-peska-naruto');
+    //  preg_match('##su',$html,$desc);
+    //}
 }

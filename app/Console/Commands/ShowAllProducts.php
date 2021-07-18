@@ -42,8 +42,8 @@ class ShowAllProducts extends Command
         foreach(cathegories::all() as $cathe){
             var_dump($cathe->title);
         }
-        $cat = "other stuff";
-        foreach(products::where('cathegory',$cat)->get() as $prod)  {
+       // $cat = "other stuff";
+        foreach(products::all() as $prod)  {
             var_dump($prod->name,$prod->image,$prod->price,$prod->description,$prod->cathegory);
         };
        
